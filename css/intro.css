@@ -1,0 +1,109 @@
+/*INTRODUCTION*/
+#intro{
+    width: 100%;
+    background-color:lightgrey;
+    position: relative;
+}
+#block1{
+    background-image: url("/images/color.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+#block2{
+    background-image: url("/images/books.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+#block3{
+    background-image: url("/images/brain.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+#block4{
+    background-image: url("/images/soccer1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+#icon{
+    width:150px;
+    height:150px;
+    background-color:white;
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+    border-radius:50%;
+     background-image: url(/images/jessica.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;
+    z-index:9;
+}
+.main{
+    background-color:#fff;
+    padding: 10px;
+    width:100%;
+    min-height: 700px;
+}
+
+.intro_block1{
+    width: 50%;
+    height:300px;
+    float: left;
+    position:relative;
+    z-index:1;
+}
+
+.blue-overlay{
+    background-color: rgba(0,0,255,.3);
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    z-index:3;
+}
+
+.blue-gradient{
+    background:blue;
+    background:linear-gradient(to bottom right,blue yellow);
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    z-index:3;
+    opacity:.3;
+}
+.intro_block2{
+    width: 50%;
+    height:300px;
+    background-color: purple;
+    float: left;
+}
+
+.clear{
+    clear:both;
+}
+
+.text_layer{
+    position:relative;
+    z-index: 4;
+    width:100%;
+}
+
+.text_layer h2{
+    color:white;
+    text-align: center;
+    width:100%;
+    margin-top: 20%;
+    font-size: 30px;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
