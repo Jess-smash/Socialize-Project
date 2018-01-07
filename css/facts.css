@@ -1,7 +1,7 @@
 /*FACTS*/
 #fact{
     background-color: yellowgreen;
-    background-size: cover;1
+    background-size: cover;
      width: 100%;
      position: relative;
      height: 450px;
@@ -39,11 +39,15 @@
 .w-33{
     position: relative;
     width:33.33%;
-    margin-top: -10%;
+    margin-top: -20%;
 }
 .w-66{
     position:relative;
     width:66.5%;
+}
+.w-50{
+    position: relative;
+    width: 50%;
 }
 #fact h1{
     color: white;

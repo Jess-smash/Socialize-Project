@@ -14,7 +14,7 @@
     background-image: url("/images/books.jpg");
     background-repeat: no-repeat;
     background-size:cover;
-    
+     
 }
 #block3{
     background-image: url("/images/brain.jpg");
@@ -61,13 +61,13 @@
 }
 
 .blue-overlay{
-    background-color: rgba(0,0,255,.3);
+    background-color: rgba(0,0,255,.5);
     position: absolute;
     top:0;
     left:0;
     bottom:0;
     right:0;
-    z-index:3;
+    z-index:4;
 }
 
 .blue-gradient{
@@ -94,7 +94,7 @@
 
 .text_layer{
     position:relative;
-    z-index: 4;
+    z-index: 5;
     width:100%;
 }
 
